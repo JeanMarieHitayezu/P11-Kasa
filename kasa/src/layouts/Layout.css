@@ -4,9 +4,4 @@ main {
   width: 80%;
 }
 
-@media screen and (max-width: 1400px) {
-  main {
-    margin: auto 5%;
-    width: 90%;
-  }
-}
+
