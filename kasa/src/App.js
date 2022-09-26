@@ -13,14 +13,11 @@ function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<Home />}/>
-            <Route path="*" element={<Error404 />}/>
             <Route path="/a-propos" element={<About />}/>
-            <Route path="/logement/:id" element={<Card />}/>
-
-            
+            <Route path="/logement/:id" element={<Card />}/>            
+            <Route path="*" element={<Error404 />}/>
           </Routes>
-        </Layout>
-        
+        </Layout>        
       </BrowserRouter>
     </div>
   );

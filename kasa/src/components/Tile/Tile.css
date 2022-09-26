@@ -36,3 +36,9 @@
     position: absolute;
 }
 
+@media screen and (max-width: 1400px) {
+    .tile {
+        min-height: 255px;
+    }
+}
+

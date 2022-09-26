@@ -40,3 +40,24 @@
     display: block;
 }
 
+@media screen and (max-width: 1400px) {
+    .carrousel {
+        height: 255px;
+        margin: auto auto 15px auto;
+    }
+
+    .fleche {
+        width: 15px;
+    }
+    
+    .fleche-gauche {
+        margin-left: 5px;
+    }
+    .fleche-droite {
+        margin-right: 5px;
+    }
+
+    .carrousel-img {
+        height: 255px;
+    }
+}
